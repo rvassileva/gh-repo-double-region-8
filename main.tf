@@ -32,6 +32,6 @@ resource "aws_instance" "test_server_2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "My Instance in Frankfurt"
+    Name = "Instance in Frankfurt"
   }
 }
